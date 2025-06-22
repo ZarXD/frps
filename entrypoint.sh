@@ -9,4 +9,4 @@ dashboard_pwd = admin
 EOF
 
 # Ini penting: jalanin frps sebagai foreground (jangan & atau background)
-./frps -c frps.ini
+/usr/local/bin/frps -c frps.ini
