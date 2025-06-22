@@ -1,5 +1,6 @@
-FROM fatedier/frp:0.61.1
-WORKDIR /frps
+FROM snowdreamtech/frps
+
+WORKDIR /app
 COPY frps.ini ./
-COPY start.sh ./
-CMD ["./start.sh"]
+
+CMD ["frps", "-c", "./frps.ini"]
