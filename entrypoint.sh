@@ -2,7 +2,7 @@
 
 cat <<EOF > frps.ini
 [common]
-bind_port = 7000
+bind_port = 80
 dashboard_port = 7500
 dashboard_user = admin
 dashboard_pwd = admin
