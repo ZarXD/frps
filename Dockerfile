@@ -11,6 +11,6 @@ RUN wget https://github.com/fatedier/frp/releases/download/v0.62.1/frp_0.62.1_li
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 7000 7500
+EXPOSE 80 7500
 
 ENTRYPOINT ["/entrypoint.sh"]
